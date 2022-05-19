@@ -1,4 +1,5 @@
-package com.win.junit;
+package test.java.com.win.junit;
+import main.java.com.win.junit.NumberComparison;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

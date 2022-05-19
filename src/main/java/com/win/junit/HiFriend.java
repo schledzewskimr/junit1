@@ -1,4 +1,4 @@
-package com.win.junit;
+package main.java.com.win.junit;
 public class HiFriend {
 
     public static void main(String[] args) {

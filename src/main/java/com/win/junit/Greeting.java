@@ -1,4 +1,4 @@
-package com.win.junit;
+package main.java.com.win.junit;
 import java.util.Scanner;
 
 public class Greeting {
