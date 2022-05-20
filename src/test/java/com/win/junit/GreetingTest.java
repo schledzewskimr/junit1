@@ -5,13 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-
 import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 class GreetingTest {
-
     @DisplayName("Test inputName() method and returns hi '' !")
     @Test
     public void inputNameTest() {
@@ -28,7 +25,6 @@ class GreetingTest {
         String[] lines = baos.toString().split(System.lineSeparator());
         String actual = lines[lines.length-1];
 
-        // checkout output
         assertEquals("hi testName!",actual);
     }
 
